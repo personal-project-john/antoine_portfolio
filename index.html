@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Antoine ROUX — 1er assistant réalisateur</title>
+<meta name="description" content="Antoine ROUX, assistant réalisateur. Plan de travail, dépouillement, conduite de plateau. Disponible sur toute la France.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;800&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ======================================================================
+     BARRE DE NAVIGATION
+     ================================================================== -->
+<header class="barre">
+  <a class="barre__nom" href="#accueil">Antoine ROUX</a>
+  <nav>
+    <a href="#profil">Profil</a>
+    <a href="#projets">Projets</a>
+    <a href="#outils">Outils</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+
+<!-- ======================================================================
+     HERO — nom + feuille de service
+     ================================================================== -->
+<main id="accueil" class="hero">
+  <div class="faisceau"></div>
+
+  <div class="hero__texte">
+    <span class="etiquette fondu f1">Assistant réalisateur — fiction, publicité, clip</span>
+
+    <h1 class="titre">
+      <span class="leve d1"><i>Antoine</i></span>
+      <span class="leve d2"><i class="creux">ROUX</i></span>
+    </h1>
+
+    <p class="hero__phrase fondu f2">Je fais tenir la journée dans le temps imparti. Plan de travail, dépouillement, conduite de plateau : le réalisateur regarde l&#x27;image, je regarde tout le reste.</p>
+
+    <div class="hero__actions fondu f3">
+      <a class="bouton bouton--plein" href="#projets">Voir les projets</a>
+      <a class="bouton" href="cv.pdf" download>Télécharger le CV</a>
+    </div>
+  </div>
+
+  <!-- Élément signature : la feuille de service -->
+  <aside class="feuille entree-feuille" aria-label="Fiche de disponibilité">
+    <div class="feuille__entete">
+      <strong>Feuille de service</strong>
+      <span id="jour">—</span>
+    </div>
+    <dl>
+      <dt>Poste</dt><dd>1er assistant réalisateur</dd>
+      <dt>Base</dt><dd>[Ville] — mobile France</dd>
+      <dt>Permis</dt><dd>B — véhicule personnel</dd>
+      <dt>Formation</dt><dd>[École], promo [année]</dd>
+    </dl>
+    <div class="feuille__pied">
+      <p class="horloge"><span id="horloge">00:00:00</span><small>Heure locale</small></p>
+      <span class="tampon">Disponible</span>
+    </div>
+  </aside>
+</main>
+
+
+<!-- ======================================================================
+     BANDEAU DÉFILANT
+     ================================================================== -->
+<div class="bandeau" aria-hidden="true">
+  <div class="bandeau__piste">
+    <span>Dépouillement</span>
+    <span>Plan de travail</span>
+    <span>Feuille de service</span>
+    <span>Minutage</span>
+    <span>Conduite de plateau</span>
+    <span>Figuration</span>
+    <span>Dépouillement</span>
+    <span>Plan de travail</span>
+    <span>Feuille de service</span>
+    <span>Minutage</span>
+    <span>Conduite de plateau</span>
+    <span>Figuration</span>
+  </div>
+</div>
+
+
+<!-- ======================================================================
+     01 — PROFIL
+     ================================================================== -->
+<section id="profil" class="section">
+  <div class="section__tete reveal">
+    <span class="etiquette">01 / Profil</span>
+    <h2>Le plateau tient à l&#x27;heure</h2>
+  </div>
+
+  <div class="profil">
+    <figure class="portrait reveal">
+      <img src="photo.jpg" alt="Portrait de Antoine ROUX">
+      <figcaption>Antoine ROUX — [lieu / année]</figcaption>
+    </figure>
+
+    <div class="reveal">
+      <p class="accroche">Diplômé de <b>[École]</b> en <b>[année]</b>, je travaille depuis sur des courts-métrages, des clips et des publicités comme assistant réalisateur.</p>
+
+      <p>Mon travail commence bien avant le premier jour de tournage : dépouiller le scénario, estimer chaque séquence, construire un plan de travail qui tient debout et anticiper ce qui va coincer. Sur le plateau, je tiens le rythme, je fais circuler l&#x27;information entre les équipes et je protège le temps du réalisateur.</p>
+      <p>[Une phrase personnelle : le type de projets qu&#x27;il cherche, ou une difficulté concrète qu&#x27;il a su gérer sur un tournage.]</p>
+
+      <dl class="fiche">
+        <div><dt>Langues</dt><dd>Français (natif) · Anglais [niveau]</dd></div>
+        <div><dt>Mobilité</dt><dd>France entière · permis B et véhicule</dd></div>
+        <div><dt>Formats</dt><dd>Fiction · clip · publicité · documentaire</dd></div>
+        <div><dt>Disponibilité</dt><dd>Immédiate</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+
+<!-- ======================================================================
+     02 — PROJETS (mise en page inspirée du plan de travail)
+     ================================================================== -->
+<section id="projets" class="section section--alt">
+  <div class="section__tete reveal">
+    <span class="etiquette">02 / Filmographie</span>
+    <h2>Mes projets</h2>
+  </div>
+
+  <div class="legende reveal">
+    <span><i style="background:#7ea5c4"></i> Fiction</span>
+    <span><i style="background:#d99aa8"></i> Clip</span>
+    <span><i style="background:#8fae86"></i> Publicité</span>
+    <span><i style="background:#dd9070"></i> Documentaire</span>
+    <span><i style="background:#e3bb5d"></i> École</span>
+  </div>
+
+  <div class="plan reveal">
+    <div class="bande">
+      <span class="bande__couleur" style="background:#7ea5c4"></span>
+      <span class="bande__num">01</span>
+      <span>
+        <span class="bande__titre">[Titre du film]</span><br>
+        <span class="bande__meta">Court-métrage · [durée] · [format de tournage]</span>
+      </span>
+      <span class="bande__meta">Réal. [Prénom Nom]</span>
+      <span class="bande__poste">1er assistant réalisateur</span>
+      <span class="bande__annee">2026</span>
+    </div>
+    <div class="bande">
+      <span class="bande__couleur" style="background:#d99aa8"></span>
+      <span class="bande__num">02</span>
+      <span>
+        <span class="bande__titre">[Titre du clip]</span><br>
+        <span class="bande__meta">Clip musical · [artiste] · [production]</span>
+      </span>
+      <span class="bande__meta">Réal. [Prénom Nom]</span>
+      <span class="bande__poste">2e assistant réalisateur</span>
+      <span class="bande__annee">2025</span>
+    </div>
+    <div class="bande">
+      <span class="bande__couleur" style="background:#8fae86"></span>
+      <span class="bande__num">03</span>
+      <span>
+        <span class="bande__titre">[Titre de la publicité]</span><br>
+        <span class="bande__meta">Publicité · [marque] · [agence]</span>
+      </span>
+      <span class="bande__meta">Réal. [Prénom Nom]</span>
+      <span class="bande__poste">Assistant réalisateur</span>
+      <span class="bande__annee">2025</span>
+    </div>
+    <div class="bande">
+      <span class="bande__couleur" style="background:#e3bb5d"></span>
+      <span class="bande__num">04</span>
+      <span>
+        <span class="bande__titre">[Film de fin d&#x27;études]</span><br>
+        <span class="bande__meta">Fiction · [durée] · [École]</span>
+      </span>
+      <span class="bande__meta">Réal. [Prénom Nom]</span>
+      <span class="bande__poste">1er assistant réalisateur</span>
+      <span class="bande__annee">2024</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- ======================================================================
+     03 — OUTILS
+     ================================================================== -->
+<section id="outils" class="section">
+  <div class="section__tete reveal">
+    <span class="etiquette">03 / Outils</span>
+    <h2>Ce que je manipule</h2>
+  </div>
+
+  <div class="outils reveal">
+    <div>
+      <h3>Préparation</h3>
+      <ul><li>Movie Magic Scheduling</li><li>Final Draft</li><li>Shot Designer</li><li>Excel / Google Sheets</li></ul>
+    </div>
+    <div>
+      <h3>Plateau</h3>
+      <ul><li>Dépouillement technique</li><li>Minutage et découpage</li><li>Gestion de la figuration</li><li>Coordination sécurité</li></ul>
+    </div>
+    <div>
+      <h3>Post &amp; annexe</h3>
+      <ul><li>Adobe Premiere Pro</li><li>DaVinci Resolve</li><li>[Autre logiciel]</li></ul>
+    </div>
+    <div>
+      <h3>Terrain</h3>
+      <ul><li>Repérages</li><li>Autorisations de tournage</li><li>Relation comédiens</li><li>[Autre compétence]</li></ul>
+    </div>
+  </div>
+</section>
+
+
+<!-- ======================================================================
+     04 — CONTACT
+     ================================================================== -->
+<section id="contact" class="section contact">
+  <div class="contact__grille">
+    <div class="reveal">
+      <span class="etiquette">04 / Contact</span>
+      <h2 class="contact__titre">Un projet, une date, un plan de travail</h2>
+      <p class="contact__phrase">Disponible pour la préparation comme pour le tournage. Le CV détaillé et les références sont envoyés sur demande.</p>
+    </div>
+
+    <div class="contact__liens reveal">
+      <a href="mailto:prenom.nom@mail.com">prenom.nom@mail.com <span>Email</span></a>
+      <a href="tel:+33600000000">06 00 00 00 00 <span>Téléphone</span></a>
+      <a href="https://www.linkedin.com/in/..." target="_blank" rel="noopener">LinkedIn <span>Réseau</span></a>
+      <a href="https://vimeo.com/..." target="_blank" rel="noopener">Vimeo <span>Bande démo</span></a>
+    </div>
+  </div>
+</section>
+
+
+<footer class="pied">
+  <span class="etiquette">© <span id="annee">2026</span> Antoine ROUX</span>
+  <span class="etiquette">Assistant réalisateur</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
